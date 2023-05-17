@@ -48,7 +48,7 @@ public class SocialMediaController {
         return app;
     }
 
-
+ 
     private void getMessagesByUserIDHandler(Context context){
         int id = Integer.parseInt(context.pathParam("account_id"));
         List<Message> allMessages = messageService.getAllMessages();
